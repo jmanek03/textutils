@@ -15,6 +15,10 @@ export default function TextForm(props) {
         console.log("Lowercase Was Clicked");
         setText(text.toLowerCase());
     }
+    const handleClearClick= ()=>{
+        console.log("Clear");
+        setText('');
+    }
 const [text,setText]= useState('');
   return (
     <>
@@ -25,6 +29,7 @@ const [text,setText]= useState('');
         </div>
        <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to Upper case</button>
        <button className="btn btn-secondary mx-2" onClick={handleDownClick}>Convert to Lower case</button>
+       <button className="btn btn-warning mx-2" onClick={handleClearClick}>Clear Text</button>
     </div>
     <div className="container my-3">
         <h1>Your Text Summary</h1>
