@@ -9,7 +9,7 @@ function App() {
   const toggleMode=()=>{
     if (mode==='light'){
       setMode('dark');
-      document.body.style.backgroundColor='black';
+      document.body.style.backgroundColor='grey';
     }  else {setMode('light');
     document.body.style.backgroundColor='white';}
   }
@@ -17,7 +17,7 @@ function App() {
     <>   
     <Navbar title="TextUtils" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
     <div className="container my-3">
-      <TextForm heading="Enter the text to analyze"/>
+      <TextForm heading="Enter the text to analyze" mode={mode}/>
     </div>
     {/* <About/> */}
     </>

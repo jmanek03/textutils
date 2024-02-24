@@ -3,6 +3,7 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  // eslint-disable-next-line no-undef
+  const linkElement = screen.getByRole('link', { name:/TextUtils/i });
   expect(linkElement).toBeInTheDocument();
 });
