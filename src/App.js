@@ -16,16 +16,21 @@ function App() {
     })
     setTimeout(() => {
       setAlert(null);
-    }, 1500);
+    }, 3000);
   }
   const toggleMode=()=>{
     if (mode==='light'){
       setMode('dark');
       document.body.style.backgroundColor='grey';
       showAlert("Dark mode has been enabled","success");
-    }  else {setMode('light');
-    document.body.style.backgroundColor='white';
-    showAlert("Light mode has been enabled","success");}
+      document.title='TextUtils-DarkMode';
+    }  
+    else {
+      setMode('light');
+      document.body.style.backgroundColor='white';
+      showAlert("Light mode has been enabled","success");
+      document.title='TextUtils-LightMode';
+  }
   }
   return (
     <>   
