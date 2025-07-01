@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# 📝 TextUtils
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive **React** application for text manipulation and analysis.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+<!-- Badges for tech stack -->
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Create React App](https://img.shields.io/badge/Create%20React%20App-09D3AC?style=for-the-badge&logo=create-react-app&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Highlights
 
-### `npm test`
+- **Live Text Analysis:** Instantly see word and character counts.
+- **Theme Support:** Switch between light and dark modes.
+- **Responsive Design:** Works seamlessly on desktop and mobile.
+- **Clipboard Integration:** Copy results with a single click.
+- **Fast & Lightweight:** Optimized for performance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔥 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Convert text to **UPPERCASE** or **lowercase**
+- **Remove extra spaces** from text
+- **Copy** text to clipboard
+- **Clear** text area
+- **Word & character count**
+- **Preview** your text in real-time
+- **Dark/Light mode** toggle
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ How to Create This Project
 
-### `npm run eject`
+1. **Bootstrap with Create React App**
+   ```bash
+   npx create-react-app textutils
+   cd textutils
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install Bootstrap**
+   ```bash
+   npm install bootstrap
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Import Bootstrap in `src/index.js`**
+   ```js
+   import 'bootstrap/dist/css/bootstrap.min.css';
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Build Components**
+   - Create components for Navbar, TextForm, and About.
+   - Use React state and props for interactivity.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. **Add Features**
+   - Implement text transformation functions.
+   - Add clipboard and theme toggle logic.
 
-## Learn More
+6. **Polish UI**
+   - Use Bootstrap classes for layout and styling.
+   - Add responsive and accessibility enhancements.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7. **Run the App**
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> _Add screenshots here to showcase the UI and features._
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📦 Available Scripts
 
-### Making a Progressive Web App
+```bash
+npm start      # Run in development mode
+npm run build  # Build for production
+npm test       # Run tests
+npm run eject  # Eject configuration (not recommended)
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📚 Learn More
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [React Documentation](https://reactjs.org/)
+- [Bootstrap Documentation](https://getbootstrap.com/)
+- [Create React App Guide](https://facebook.github.io/create-react-app/docs/getting-started)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> _Crafted with ❤️ by [Your Name]_
